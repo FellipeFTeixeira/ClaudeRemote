@@ -1,0 +1,31 @@
+{
+  "name": "clauderemote-moveis-api",
+  "version": "1.0.0",
+  "description": "API simples de produtos moveleiros (e-commerce)",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FellipeFTeixeira/ClaudeRemote.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FellipeFTeixeira/ClaudeRemote/issues"
+  },
+  "homepage": "https://github.com/FellipeFTeixeira/ClaudeRemote#readme",
+  "dependencies": {
+    "express": "^4.22.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.25",
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
